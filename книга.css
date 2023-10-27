@@ -1,0 +1,101 @@
+body {
+	font-family: Georgia;
+	font-size: 16px;
+	max-width: 800px; /* limit width */
+	line-height: 1.5;
+	margin-left: auto; /* - выравнивание сбоку */
+	margin-right: auto; /* - выравнивание сбоку */
+	margin-top: 0px; /* - выравнивание сверху */
+	margin-bottom: 0px; /* - выравнивание снизу */
+	padding-left:0px;
+	padding-right: 0px;
+	padding-top: 32px; /* отступ сверху от окна*/
+	padding-bottom: 32px; /* отступ снизу */
+
+}
+
+#header{ /* -стилизация дива хедер */
+	display: block;
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+.header_title {
+	display: block; /* - занять весь лист */
+	text-align: center; /* - разместить по центру */
+	font-size: 36px; /* -размер шрифта заголовка */
+	font-weight: 400; /* - вес стиля */
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-left:0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.header_subtitle {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-left:0px;
+	padding-right: 0px;
+	padding-top: 0px; /* отступ сверху по умолчанию*/
+	padding-bottom: 0px;
+	font-weight: 400;
+}
+
+#main {
+	display: block;
+	margin-bottom: 24px;
+}
+
+.main p { /* -задала отдельно класс для параграфоф в диве main */
+	display: block;
+	text-align: center;
+    margin-bottom: 12px; /* - расстояние перед Готов к удаленной работе */
+}
+
+.main-section {
+	margin-bottom: 16px;
+}
+
+.main-section h2 {
+	font-size: 30px;
+    border-bottom: 1px grey solid; /* подчеркивание снизу как граница блока */
+    margin-bottom: 8px;
+	margin-top: 0px;
+	font-family: Georgia;
+}
+
+.main-section h3 {
+	font-family: Georgia;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.main_section_item {
+	margin-bottom: 16px;
+}
+
+.main_section_item p {
+	margin-bottom: 12px;
+	margin-top: 0px;
+}
+
+#Footer {
+	display: block;
+	text-align: center;
+	margin-top: 64px;
+}
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive;
